@@ -21,3 +21,5 @@ pytesseract
 pillow
 fastapi
 uvicorn
+pyvis
+networkx
