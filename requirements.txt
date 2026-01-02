@@ -5,9 +5,9 @@ langchain-core
 langchain-groq
 chromadb
 faiss-cpu
-huggingface-hub
-sentence-transformers
-torch
+huggingface-hub>=0.23.0
+sentence-transformers==3.3.1
+torch>=2.0.0
 torchvision
 pandas
 numpy
@@ -23,3 +23,4 @@ fastapi
 uvicorn
 pyvis
 networkx
+transformers>=4.41.0
