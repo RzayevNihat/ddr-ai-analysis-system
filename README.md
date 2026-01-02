@@ -274,18 +274,3 @@ python setup_data.py
 | `chroma_db/` | Vektor bazası (ChromaDB) |
 | `embedding_cache/` | Embedding keşi (performance optimization) |
 
-## 📝 Lisenziya
-
-Bu layihə MIT lisenziyası altındadır.
-
-## 👥 Müəlliflər
-
-**Sistem dizayni və implementasiya:** DDR AI Analysis Team
-
-## 🙏 Töhfələr
-
-Pull request-lər qəbul olunur! Böyük dəyişikliklər üçün əvvəlcə issue açın.
-
----
-
-**Not:** Bu sistem təhsil və tədqiqat məqsədləri üçündür. Real istehsal mühitində istifadə etməzdən əvvəl hərtərəfli test aparın.
