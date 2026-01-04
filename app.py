@@ -223,14 +223,12 @@ def search_page(processed_data):
     with st.expander("💡 Nümunə Suallar", expanded=True):
         examples = [
                     "Quyuların adlarını yaz",
-        "Sistemdə olan quyuların siyahısını ver",
+        "Qazma gündəlik hesabatlarında anomaliyalar",
+        "Quyular üzrə aparılan əməliyyatların ümumi xülasəsi",
+        "Konkret quyu və tarix üzrə görülən işlər",
+        "Litologiya və qaz oxunuşları",
         "Bütün məhlul itkisi (lost circulation / no returns) hadisələrini göstər",
         "Lost circulation olan faylları göstər",
-        "Bütün “tight hole” olan hadisələri sadala",
-        "Bütün “swabbing” olan hadisələri sadala",
-        "Bütün “overpull” olan hadisələri sadala",
-        "Bütün “packer” olan hadisələri sadala",
-        "Bütün “leakage” (sızıntı) olan qeydləri sadala",
         "Anomaliya olan tarixləri qeyd et",
         ]
 
