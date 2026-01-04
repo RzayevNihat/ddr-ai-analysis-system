@@ -101,9 +101,13 @@ class LLMService:
         self.client = Groq(api_key=Config.GROQ_API_KEY)
         self.model = Config.GROQ_MODEL
         self.rate_limiter = RateLimiter(rpm_limit=28, tpm_limit=16000)
-        self.system_prompt = """Sən gündəlik qazma hesabatları (DDR), quyu əməliyyatları və neft mühəndisliyi üzrə dərin biliyə malik ekspert qazma mühəndisisən.
+        self.system_prompt = (
+    "Sən DDR (Daily Drilling Report) məlumatları üzrə köməkçisən.\n"
+    "QAYDA: HƏMİŞƏ Azərbaycan dilində cavab ver.\n"
+    "Əgər CONTEXT və ya verilən mətn ingiliscədirsə, onu Azərbaycan dilinə çevirərək cavab ver.\n"
+    "Əgər məlumat yoxdursa: yalnız 'Məlumat tapılmadı.' yaz."
+)
 
-VACİB: Giriş dilindən asılı olmayaraq HƏMİŞƏ Azərbaycan dilində cavab ver."""
     
     def generate_text(self, prompt: str, max_tokens: int = 1024, temperature: float = 0.1) -> str:
         max_retries = 5
