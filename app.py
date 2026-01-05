@@ -229,7 +229,7 @@ def search_page(processed_data):
         "Litologiya və qaz oxunuşları",
         "Bütün məhlul itkisi (lost circulation / no returns) hadisələrini göstər",
         "Lost circulation olan faylları göstər",
-        "Anomaliya olan tarixləri qeyd et",
+        "Qazma gündəlik hesabatında istifadə olunan əsas terminlər və abbreviaturalar nələridir?",
         ]
 
         col1, col2 = st.columns(2)
@@ -488,3 +488,4 @@ def reports_page(data):
 
 if __name__ == "__main__":
     main()
+
